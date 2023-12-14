@@ -70,9 +70,13 @@
      height: 100%;
      padding-left: 15px;
      animation: fromBellow 500ms linear;
-
-
-
+ }
+ .img-nav2 {
+    display: none;
+    width: 200px;
+    height: 100%;
+    padding-left: 15px;
+    animation: fromBellow 500ms linear;
  }
 
  .img-nav:hover {
@@ -133,8 +137,14 @@
      z-index: 1;
      opacity: 0.9;
      overflow: hidden;
+     backdrop-filter: blur(5px);
+     
+    
+
+
 
  }
+
 
  .n-item {
      color: white;
@@ -1324,6 +1334,25 @@
      .article-section-3-1{
         width: 100%;
      }
+     .header-section{
+        
+     }
+     .logo-nav {
+        display: none;
+    }
+    .img-nav{
+        display: inline-block;
+        height: 100px;
+    }
+    .img-nav2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+
  }
 
  @media (max-width: 576px) {
@@ -1378,6 +1407,9 @@
 
      .productContent {
          aspect-ratio: 1/0.5;
+     }
+     .contenedor{
+        padding: 0;
      }
 
  }
