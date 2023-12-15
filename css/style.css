@@ -71,12 +71,13 @@
      padding-left: 15px;
      animation: fromBellow 500ms linear;
  }
+
  .img-nav2 {
-    display: none;
-    width: 200px;
-    height: 100%;
-    padding-left: 15px;
-    animation: fromBellow 500ms linear;
+     display: none;
+     width: 200px;
+     height: 100%;
+     padding-left: 15px;
+     animation: fromBellow 500ms linear;
  }
 
  .img-nav:hover {
@@ -138,8 +139,8 @@
      opacity: 0.9;
      overflow: hidden;
      backdrop-filter: blur(5px);
-     
-    
+
+
 
 
 
@@ -499,8 +500,9 @@
  .img-section-3-1 {
      width: 100%;
  }
- .caja-img-section-3-2{
-    width: 100%;
+
+ .caja-img-section-3-2 {
+     width: 100%;
 
  }
 
@@ -721,15 +723,23 @@
      display: flex;
      justify-content: center;
      align-items: center;
+ }
 
-
-
-
+ .header-img__about {
+     width: 100%;
+     object-fit: cover;
+     object-position: 0px -400px;
+     filter: brightness(0.8);
+     height: 100%;
+     clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
  }
 
  .about-us2 {
      display: flex;
 
+ }
+ .about__text{
+    font-size: 20px;
  }
 
 
@@ -1168,6 +1178,21 @@
 
 
      }
+
+     .header-img__about {
+         width: 100%;
+         object-fit: cover;
+         object-position: 0px -200px;
+         filter: brightness(0.8);
+         height: 100%;
+         clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
+     }
+ }
+
+ @media (max-width: 1200px) {
+     .footer-hermano1 {
+         gap: 0px;
+     }
  }
 
  @media (max-width: 1039px) {
@@ -1178,6 +1203,15 @@
      .footer-hermano1 {
          gap: 0;
          padding: 10px;
+     }
+
+     .header-img__about {
+         width: 100%;
+         object-fit: cover;
+         object-position: 0px -40px;
+         filter: brightness(0.8);
+         height: 100%;
+         clip-path: polygon(9% 0, 100% 0%, 100% 100%, 0% 100%);
      }
 
  }
@@ -1196,7 +1230,7 @@
      }
 
      .footer-form {
-         padding: 15px;
+         padding: 0px;
 
      }
 
@@ -1325,32 +1359,36 @@
          margin: 20px;
          width: 90%;
      }
-     .caja-img-section-3-2{
-        width: 100%;
-     }
-     .carousel-caption{
-        bottom: 5.25rem;
-     }
-     .article-section-3-1{
-        width: 100%;
-     }
-     .header-section{
-        
-     }
-     .logo-nav {
-        display: none;
-    }
-    .img-nav{
-        display: inline-block;
-        height: 100px;
-    }
-    .img-nav2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    
+     .caja-img-section-3-2 {
+         width: 50%;
+         margin: 0 auto;
+     }
+
+     .carousel-caption {
+         bottom: 5.25rem;
+     }
+
+     .article-section-3-1 {
+         width: 100%;
+     }
+
+     .logo-nav {
+         display: none;
+     }
+
+     .img-nav {
+         display: inline-block;
+         height: 100px;
+     }
+
+     .img-nav2 {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+
 
 
  }
@@ -1383,7 +1421,12 @@
      }
 
      h3 {
+         font-size: 24px;
+     }
+
+     .text__section3 {
          font-size: 18px;
+
      }
 
      .productTitle {
@@ -1408,8 +1451,9 @@
      .productContent {
          aspect-ratio: 1/0.5;
      }
-     .contenedor{
-        padding: 0;
+
+     .contenedor {
+         padding: 0;
      }
 
  }
