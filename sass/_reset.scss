@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(230, 223, 212);
+}
+
+#main {
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    box-shadow: 0px 1px 2px #2E2E2E;
+    margin: 12px 0px;
+  
+  }

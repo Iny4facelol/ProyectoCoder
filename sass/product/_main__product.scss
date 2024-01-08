@@ -1,0 +1,135 @@
+.contenedor {
+    max-width: 80%;
+    margin-inline: auto;
+    padding: 1rem;
+    padding-top: 50px;
+
+}
+
+.productMain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+
+}
+
+.product {
+
+    aspect-ratio: 1/1.5;
+
+
+}
+
+.productImg {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    box-shadow: 0px 5px 10px #252525;
+    transition: all 300ms;
+    &:hover{
+        box-shadow: 0px 10px 30px #2E2E2E;
+        
+    }
+}
+
+
+
+.productContent {
+
+
+    align-self: end;
+    padding: 10px;
+    margin: 10px 10px;
+
+
+
+}
+
+.productTitle {
+    font-size: 2rem;
+    font-family: "blackmango";
+    text-align: center;
+    text-shadow: 0px 1px 2px #2E2E2E;
+}
+
+.productPrecio {
+    color: rgb(161, 28, 53);
+    font-size: 2rem;
+
+
+}
+
+.productDescripcion {
+    font-size: 30px;
+    padding-top: 5px;
+    transition: all 800ms;
+}
+
+
+
+.productAlergenos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botonAlergenos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: #C3AA83;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid #ebe2e2;
+    box-shadow: 0px 0px 5px #7c7575;
+    transition: all 500ms;
+}
+
+.botonAlergenos>* {
+    text-shadow: 1px 1px 10px rgb(240, 158, 7);
+
+
+}
+
+.botonAlergenos:hover {
+    text-shadow: 1px 1px 10px rgb(240, 158, 7);
+    box-shadow: 0px 10px 10px white;
+
+}
+
+.botonAlergenosVegan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: rgb(150, 221, 8);
+    color: rgb(239, 241, 235);
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid rgb(232, 235, 226);
+    box-shadow: 0px 0px 5px #7c7575;
+    transition: all 500ms;
+
+}
+
+.botonAlergenosVegan:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    background-color: rgb(150, 221, 8);
+    color: rgb(239, 241, 235);
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid rgb(232, 235, 226);
+    box-shadow: 0px 10px 10px white;
+
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+}
+

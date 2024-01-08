@@ -1,0 +1,96 @@
+h1 {
+    font-family: 'Blackmango';
+    font-size: 100px;
+    text-shadow: 5px 5px 10px #2E2E2E;
+    animation: text-focus-in 1.2s linear forwards;
+    
+
+   
+    
+}
+@-webkit-keyframes text-focus-in {
+   0% {
+     -webkit-filter: blur(12px);
+             filter: blur(12px);
+     opacity: 0;
+   }
+   100% {
+     -webkit-filter: blur(0px);
+             filter: blur(0px);
+     opacity: 1;
+   }
+ }
+ @keyframes text-focus-in {
+   0% {
+     -webkit-filter: blur(12px);
+             filter: blur(12px);
+     opacity: 0;
+   }
+   100% {
+     -webkit-filter: blur(0px);
+             filter: blur(0px);
+     opacity: 1;
+   }
+ }
+ @-webkit-keyframes flip-diagonal-1-tr {
+   0% {
+     -webkit-transform: rotate3d(1, 1, 0, 0deg);
+             transform: rotate3d(1, 1, 0, 0deg);
+   }
+   100% {
+     -webkit-transform: rotate3d(1, 1, 0, 180deg);
+             transform: rotate3d(1, 1, 0, 180deg);
+   }
+ }
+ @keyframes flip-diagonal-1-tr {
+   0% {
+     -webkit-transform: rotate3d(1, 1, 0, 0deg);
+             transform: rotate3d(1, 1, 0, 0deg);
+   }
+   100% {
+     -webkit-transform: rotate3d(1, 1, 0, 180deg);
+             transform: rotate3d(1, 1, 0, 180deg);
+   }
+ }
+ 
+
+.c-item {
+    height: 400px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.carousel-caption p {
+    font-family: 'Marcellus', serif;
+    font-size: 24px;
+
+}
+
+.btn-primary {
+
+    width: 102px;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
+    background-color: #C3AA83;
+    border: 1px solid white;
+    border-radius: 0px;
+    transition: all 1s;
+
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border: 1px solid #C3AA83;
+    color: #C3AA83;
+    border-radius: 10px;
+
+}
+
+.btn-primary:active {
+    background-color: rgb(58, 55, 55) !important;
+
+}

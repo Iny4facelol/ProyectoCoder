@@ -1,0 +1,197 @@
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #C3AA83
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    margin: 0;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.social-icon {
+
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 650ms;
+
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #5e3e18;
+    text-shadow: 0px 0px 5px #2E2E2E;
+
+}
+
+.linkSocial {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 650ms;
+
+}
+
+.linkSocial:hover {
+    transform: scale(1.2);
+    color: #5e3e18;
+    text-shadow: 0px 0px 5px #2E2E2E;
+
+}
+
+.footer-socials-text {
+    font-size: 30px;
+    color: white;
+    font-family: 'Marcellus';
+    margin: 0px !important;
+}
+
+.formulario {
+    background-color: #c4b6a1;
+    border: 2px solid white;
+    font-family: 'Marcellus';
+    text-align: center;
+    height: 45px;
+}
+
+input:focus-visible {
+    outline-color: rgb(149, 194, 138);
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+label {
+    color: white;
+    font-family: 'Marcellus';
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.submit-button {
+    background-color: white;
+    color: #C3AA83;
+    font-family: "marcellus";
+    border: 5px;
+    cursor: pointer;
+
+}
+
+.submit-button:active {
+    background-color: green;
+
+}
+
+.btn-light {
+    background-color: white;
+    color: #C3AA83;
+    font-family: "marcellus";
+    border: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 45px;
+    transition: all 400ms;
+}
+
+.btn-light:hover {
+    background-color: #2E2E2E;
+    color: rgb(246, 247, 246);
+    box-shadow: 0px 0px 5px white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-text {
+    color: white;
+    font-family: "marcellus";
+}
+
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+    width: 100%;
+
+
+
+}
+
+.form-control {
+    text-align: center;
+    font-family: "marcellus";
+
+}
+
+.form-control:focus {
+    border-color: rgb(22, 189, 22);
+    box-shadow: 0 0 10px 10px rgb(214, 202, 202);
+
+
+}
+
+.footer-hermano1 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+
+
+
+}
+
+.footer-hermano2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+}

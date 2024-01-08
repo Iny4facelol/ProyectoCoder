@@ -1,0 +1,41 @@
+.galleryMain {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 50px;
+    gap: 1rem;
+
+
+
+}
+.galleryChild img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.galleryChild {
+    box-shadow: 1px 1px 5px #2E2E2E;
+    transition: all 500ms;
+    position: relative;
+    overflow: hidden;
+}
+
+.galleryChild:hover {
+    box-shadow: 1px 1px 20px #2E2E2E;
+
+
+}
+
+.galleryChild1 {
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.galleryChild1:hover {
+    opacity: 0.8;
+    transform: scale(1.2);
+}
