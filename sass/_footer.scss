@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     background-color: #C3AA83
 }
 
@@ -14,6 +15,7 @@
     font-family: 'Trebuchet MS';
     font-style: italic;
     margin: 0;
+    height: 100%;
 }
 
 .footer-logo {
@@ -22,28 +24,32 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 
 .footer-socials {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
 
 
 
 }
-
+.footer-img{
+    width: 360px;
+}
 .footer-icons {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 12px;
 }
 
 .social-icon {
 
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     cursor: pointer;
     transition: all 650ms;
@@ -58,7 +64,7 @@
 }
 
 .linkSocial {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     cursor: pointer;
     transition: all 650ms;
@@ -153,6 +159,7 @@ form {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
+    height: 100%;
 
     width: 100%;
 
@@ -176,7 +183,10 @@ form {
 .footer-hermano1 {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+    
 
 
 
@@ -184,8 +194,9 @@ form {
 }
 
 .footer-hermano2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 100%;
 }
 
 .mb-3 {

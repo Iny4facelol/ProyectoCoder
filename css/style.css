@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
   background-color: #C3AA83;
 }
 
@@ -17,6 +18,7 @@
   font-family: "Trebuchet MS";
   font-style: italic;
   margin: 0;
+  height: 100%;
 }
 
 .footer-logo {
@@ -25,24 +27,30 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 .footer-socials {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.footer-img {
+  width: 360px;
 }
 
 .footer-icons {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 12px;
 }
 
 .social-icon {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   cursor: pointer;
   transition: all 650ms;
@@ -55,7 +63,7 @@
 }
 
 .linkSocial {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   cursor: pointer;
   transition: all 650ms;
@@ -142,6 +150,7 @@ form {
   justify-content: center;
   align-items: center;
   padding-top: 30px;
+  height: 100%;
   width: 100%;
 }
 
@@ -158,12 +167,15 @@ form {
 .footer-hermano1 {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 150px;
 }
 
 .footer-hermano2 {
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 100%;
 }
 
 .mb-3 {
@@ -723,17 +735,21 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 10px;
+}
+.text-section-3 .titlespan {
+  text-shadow: 0px 0px 2px #2E2E2E;
 }
 
 .article-section-3-1 {
-  width: 400px;
+  width: 350px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .article-section-3-2 {
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -754,7 +770,7 @@ h2 {
 }
 
 .text__section3 {
-  font-size: 24px;
+  font-size: 20px;
   animation: tilt-in-right-1 1s linear forwards;
   animation-timeline: scroll();
   animation-range: 600px 1100px;
@@ -1014,7 +1030,10 @@ h1 {
 .columna-item {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 10px;
+  gap: 10px;
 }
 
 .aboutus-main {
@@ -1023,7 +1042,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   gap: 100px;
-  margin: 40px 40px;
+  margin: 40px 0px;
 }
 
 .col-iframe {
@@ -1037,9 +1056,9 @@ iframe {
 }
 
 .parrafo-numeros {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "marcellus";
   font-size: 24px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .bi-geo-alt-fill {
@@ -1049,10 +1068,16 @@ iframe {
 
 .bi-car-front-fill {
   font-size: 24px;
+  font-family: "marcellus";
 }
 
 .bi-watch {
   font-size: 24px;
+  font-family: "marcellus";
+}
+
+.textHorarios {
+  font-family: "marcellus";
 }
 
 .wrapper {
@@ -1355,6 +1380,7 @@ p {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
+    margin-top: 15px;
   }
   .productContent {
     box-shadow: 1px 1px 5px #2E2E2E;
@@ -1404,6 +1430,7 @@ p {
   .wrapper {
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
   }
   .galleryMain {
     width: 100%;
@@ -1411,7 +1438,7 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
-    padding: 10px;
+    padding: 15px 10px;
   }
   .textHorarios {
     padding-top: 25px;
@@ -1466,10 +1493,13 @@ p {
   }
   .contact-img {
     width: 100%;
-    height: 900px;
+    height: 400px;
     object-fit: cover;
     box-shadow: 0px 0px 4px #2E2E2E;
     overflow: hidden;
+  }
+  .aboutus-main {
+    margin: 15px 0px;
   }
   h2 {
     font-size: 40px;
@@ -1497,6 +1527,15 @@ p {
   }
   .contenedor {
     padding: 0;
+  }
+  .columna__1 {
+    width: 100% !important;
+  }
+  .section__aboutus {
+    width: 100% !important;
+  }
+  .columna-item {
+    padding: 0px 10px 15px 10px;
   }
 }
 /* FUENTES */

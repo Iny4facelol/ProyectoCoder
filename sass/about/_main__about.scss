@@ -45,7 +45,10 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     padding: 10px;
+    gap: 10px;
 
 
 
@@ -57,7 +60,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 100px;
-    margin: 40px 40px;
+    margin: 40px 0px;
 }
 
 .col-iframe {
@@ -73,13 +76,9 @@ iframe {
 }
 
 .parrafo-numeros {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "marcellus";
     font-size: 24px;
-    font-style: italic;
-
-
-
-
+    font-style:normal;
 }
 
 .bi-geo-alt-fill {
@@ -89,8 +88,14 @@ iframe {
 
 .bi-car-front-fill {
     font-size: 24px;
+    font-family: "marcellus";
 }
 
 .bi-watch {
     font-size: 24px;
+    font-family: "marcellus";
+}
+
+.textHorarios{
+    font-family: "marcellus";
 }
