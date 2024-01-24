@@ -1,5 +1,5 @@
 .contenedor {
-    max-width: 65%;
+    max-width: clamp(70%, 70%, 1100px);
     margin-inline: auto;
     padding: 1rem;
     padding-top: 50px;
